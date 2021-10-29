@@ -160,3 +160,15 @@ button:active{
         min-width: 390px;
     }
 }
+@media (max-width: 400px) {
+    body{
+        font-weight: 250;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 350px;
+    }
+}
