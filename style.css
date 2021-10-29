@@ -13,21 +13,7 @@ body{
     font-weight: 700;
     text-align: center; 
 }
-/* @media (max-width: 75em) {
-    body{
-        font-weight: 650;
-    }
-} */
-/* @media (max-width: 56.25em) {
-    body{
-        font-weight: 400;
-    }
-}
-@media (max-width: 37jj.5em) {
-    body{
-        font-weight: 200;
-    }
-} */
+
 .quote-container{
     position: absolute;
     top: 50%;
@@ -38,16 +24,7 @@ body{
     padding: 20px 30px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, .5);
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, .2);
-    @media (max-width: 75em) {
-        top: 10%;
-    }
-    @media (max-width: 56.25em) {
-        font-weight: 400;
-    }
-    @media (max-width: 37.5em) {
-        font-weight: 200;
-    }
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, .2);    
 } 
 
 .quote-text{
@@ -112,8 +89,8 @@ button:active{
     height: 120px;
     animation: spin 2s linear infinite;
     position: absolute;
-    left: 45%;
-    top: 45%;
+    left: 42%;
+    top: 42%;
 }
 
 @keyframes spin {
@@ -121,5 +98,65 @@ button:active{
         transform: rotate(0deg);
     }100%{
         transform: rotate(360deg);
+    }
+}
+@media (max-width: 1200px) {
+    body{
+        font-weight: 600;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 900px;
+    }
+}
+@media (max-width: 900px) {
+    body{
+        font-weight: 500;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 800px;
+    }
+}
+@media (max-width: 750px) {
+    body{
+        font-weight: 450;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 620px;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        font-weight: 400;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 450px;
+    }
+}
+@media (max-width: 500px) {
+    body{
+        font-weight: 300;
+    }
+    .quote-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 390px;
     }
 }
