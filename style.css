@@ -66,6 +66,8 @@ button{
 
 button:hover{
     filter: brightness(110%);
+    outline: 1px solid #38a1f3;
+    outline-offset: 5px;
 }
 
 button:active{
@@ -127,6 +129,7 @@ button:active{
 @media (max-width: 750px) {
     body{
         font-weight: 450;
+        text-align: none;
     }
     .quote-container{
         position: absolute;
@@ -139,6 +142,7 @@ button:active{
 @media (max-width: 600px) {
     body{
         font-weight: 400;
+        text-align: none;
     }
     .quote-container{
         position: absolute;
@@ -162,6 +166,7 @@ button:active{
 @media (max-width: 500px) {
     body{
         font-weight: 300;
+        text-align: none;
     }
     .quote-container{
         position: absolute;
@@ -185,6 +190,7 @@ button:active{
 @media (max-width: 414px) {
     body{
         font-weight: 250;
+        text-align: none;
     }
     .quote-container{
         position: absolute;
